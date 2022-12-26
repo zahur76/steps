@@ -1,8 +1,9 @@
-# DJANGO FILTER TUTORIAL
+# DJANGO FILTERs TUTORIAL
 
 ## TABLE OF CONTENT 
 * [Introduction](#introduction)    
 * [Technologies used](#technologies-used)
+* [Environmental Variables](#environmental-variables)
 
 ## INTRODUCTION
 
@@ -12,5 +13,14 @@ Tutorial on how to implement django filters in DRF
 ## TECHNOLOGIES USED
 
 * python 3.6.9
+* Django 3.2.16
+* django-rest-framework=0.1.0
+
+## Environmental Variables
+
+* Set secret key in home/bashrc file: ``` [Technologies used](#technologies-used) ```
+* activate with source ~/.bashrc
+
+
 
 
