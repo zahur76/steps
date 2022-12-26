@@ -16,6 +16,7 @@ Tutorial on how to implement django filters in DRF with the aim of using it on o
 * python 3.6.9
 * Django 3.2.16
 * django-rest-framework=0.1.0
+* drf-spectacular==0.25.1
 
 ## Environmental Variables
 
