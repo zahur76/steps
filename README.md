@@ -5,9 +5,10 @@
 * [Technologies used](#technologies-used)
 * [Environmental Variables](#environmental-variables)
 
+
 ## INTRODUCTION
 
-Tutorial on how to implement django filters in DRF
+Tutorial on how to implement django filters in DRF with the aim of using it on other projects.
 
 
 ## TECHNOLOGIES USED
@@ -20,6 +21,8 @@ Tutorial on how to implement django filters in DRF
 
 * Set secret key in home/bashrc file: ``` [Technologies used](#technologies-used) ```
 * activate with source ~/.bashrc
+
+
 
 
 
