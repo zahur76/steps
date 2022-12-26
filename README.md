@@ -1,4 +1,4 @@
-# DJANGO FILTERs TUTORIAL
+# DJANGO FILTERS TUTORIAL
 
 ## TABLE OF CONTENT 
 * [Introduction](#introduction)    
