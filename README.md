@@ -23,7 +23,7 @@ Tutorial on how to implement django filters in DRF with the aim of using it on o
 
 ## Environmental Variables
 
-* Set secret key in home/bashrc file: ``` export SECRET_KEY= **** ```
+* Set secret key in home/bashrc file: ``` export SECRET_KEY= **** ``` or use env.py
 * activate with source ~/.bashrc
 
 
