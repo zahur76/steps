@@ -8,6 +8,11 @@ from django_filters import rest_framework as filters
 class StepsFilter(filters.FilterSet):
     min_steps = filters.NumberFilter(field_name="steps", lookup_expr='gte')
     max_steps = filters.NumberFilter(field_name="steps", lookup_expr='lte')
+    date = filters.DateFromToRangeFilter()
+
+    class Meta:
+        model = Steps
+        fields = ['steps'] # exact match without definition above
 
 
 class ListCreateSteps(generics.ListCreateAPIView):
