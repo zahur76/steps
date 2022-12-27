@@ -1,3 +1,0 @@
-import os
-
-os.environ.setdefault("SECRET_KEY", "django-insecure-m81q#0uyehx5(r0$0dnm37#w(%jzko(&swx0e2z&3#4+0_rcif#")
