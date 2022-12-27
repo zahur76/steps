@@ -11,7 +11,7 @@
 ## INTRODUCTION
 
 Tutorial on how to implement django filters in DRF with the aim of using it on other projects.
-
+Also implements openAPI documentation
 
 ## TECHNOLOGIES USED
 
