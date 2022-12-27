@@ -10,6 +10,10 @@ class StepsFilter(filters.FilterSet):
     max_steps = filters.NumberFilter(field_name="steps", lookup_expr='lte')
     date = filters.DateFromToRangeFilter()
 
+    class Meta:
+        model = Steps
+        fields = ['steps'] # exact match without definition above
+
 
 class ListCreateSteps(generics.ListCreateAPIView):
     """
